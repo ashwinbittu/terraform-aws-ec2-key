@@ -16,6 +16,3 @@ variable "app_name" {
 
 variable "app_csi" {
 }
-
-variable "app_color" {
-}
