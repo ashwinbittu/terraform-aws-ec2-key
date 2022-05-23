@@ -11,7 +11,7 @@ resource "aws_key_pair" "keypair" {
     Name = "${var.app_name}-keypair"
     environment  = var.app_env
     appname = var.app_name
-    csiappid = var.app_csi
+    appid = var.app_id
   }
 
 }
