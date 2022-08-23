@@ -1,8 +1,5 @@
-variable "path_to_private_key" {
-  default = "mykey"
-}
-
-variable "path_to_public_key" {
+variable "key_name" {
+  default = ""
 }
 
 variable "app_env" {
